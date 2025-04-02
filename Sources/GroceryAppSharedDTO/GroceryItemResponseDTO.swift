@@ -9,6 +9,14 @@ import Foundation
 
 public struct GroceryItemResponseDTO: Codable, Sendable {
     public let id: Int
-    public let name: String
+    public let title: String
     public let price: Double
+    public let quantity: Int
+    
+    public init(id: Int, title: String, price: Double, quantity: Int) {
+        self.id = id
+        self.title = title
+        self.price = price
+        self.quantity = quantity
+    }
 }
