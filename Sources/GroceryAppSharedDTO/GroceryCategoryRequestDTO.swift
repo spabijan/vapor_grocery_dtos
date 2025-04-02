@@ -5,7 +5,7 @@
 //  Created by sebastian-mac-m2 on 02/04/2025.
 //
 
-public struct GroceryRequestDTO: Codable, Sendable {
+public struct GroceryCategoryRequestDTO: Codable, Sendable {
     public let title: String
     public let colorCode: String
     
