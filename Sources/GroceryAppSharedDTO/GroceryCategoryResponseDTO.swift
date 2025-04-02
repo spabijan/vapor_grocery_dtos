@@ -11,7 +11,7 @@ public struct GroceryCategoryResponseDTO: Codable, Sendable {
     public let title: String
     public let colorCode: String
     
-    init(id: UUID, title: String, colorCode: String) {
+    public init(id: UUID, title: String, colorCode: String) {
         self.id = id
         self.title = title
         self.colorCode = colorCode
